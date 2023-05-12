@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.valyuta-name:hover {
+    background: #9b65e7;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+input[type=radio]:checked~label:hover {
+    background: #9b65e7;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F5F5F6;
+    height: 7vh;
+}
+
+.logo {
+    width: 7%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.68rem;
+    line-height: 0, 8125rem;
+    letter-spacing: 0.06rem;
+    margin-right: 2rem;
+    color: #959BA4;
+    cursor: pointer;
+}
+
+.voit {
+    padding: 0.48rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.68rem;
+    line-height: 0, 8125rem;
+    letter-spacing: 0.06rem;
+    outline: none;
+}
+
+.valyuta-converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 4%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.33rem;
+    line-height: 2.625rem;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    margin-top: 5%;
+}
+
+.info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.875rem;
+    color: black;
+    padding: 2% 0;
+}
+
+.left {
+    margin-right: 20%;
+}
+
+.valyuta-names {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 10%;
+}
+
+.valyuta-name {
+    border: 1px solid black;
+}
+
+label {
+    display: flex;
+    padding: 0.625rem;
+    padding-inline: 1.4rem
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]:checked~label {
+    background: #833AE0;
+    color: white;
+}
+
+input[type=text] {
+    border: none;
+    width: 100%;
+    height: 9vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    padding-left: 4%;
+}
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+
+.valyuta-val {
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 12vh;
+}
+
+.valyuta-val p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 5%;
+}
+
